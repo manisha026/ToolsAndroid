@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#0b8f2e"
+    android:padding="50dp"
+    android:id="@+id/relativeLayout">
+
+    <TextView
+        android:id="@+id/funfact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Ant Straches When they wake up in the morning"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="186dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="99dp"
+        android:layout_gravity="center"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="10dp"
+        tools:layout_editor_absoluteY="465dp">
+    <Button
+        android:id="@+id/switch_button"
+        android:layout_width="186dp"
+        android:layout_height="46dp"
+
+        android:text="Switch"
+        android:textColor="#0b8f2e"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"/>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
